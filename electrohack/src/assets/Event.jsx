@@ -6,7 +6,7 @@ const milestones = [
     {
       title: "Tutorial-I",
       date: "3rd February 10:00am - 11:30am",
-      description: "Learn about FPGA, how they play a key role in today’s world and delve into VLSI Design Ipsum Odor Sit Amet"
+      description: "Learn about FPGA and delve into VLSI Design"
     },
     {
       title: "Idea Review (Review 0)",
@@ -48,7 +48,7 @@ export default function Event(){
                 <div className="text-center gradienttext1 mb-16" style={{fontSize:"6vw", fontFamily:'"Jersey 15", serif'}}>All Set To Trailblaze?</div>
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="With sustainability, AI, electronics and innovation at its core,"
+  text="With sustainability, AI, electronics and innovation at its core, ElectroHack aims to motivates students"
   delay={50}
   animateBy="words"
   direction="top"
@@ -59,7 +59,7 @@ export default function Event(){
                 </div>
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text=" ElectroHack aims to motivates students to come up with  ElectroHack aims to motivates students to come up with "
+  text="to come up with awe-inspiring and creative solutions for Sustainable Development Goals."
   delay={50}
   animateBy="words"
   direction="top"
@@ -71,7 +71,7 @@ export default function Event(){
 
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="awe-inspiring and creative solutions for Sustainable Development Goals. Learn from mentors, collaborate with like-minded peers and innovate your way to victory."
+  text="Learn from mentors, collaborate with like-minded peers and innovate your way to victory."
   delay={50}
   animateBy="words"
   direction="top"
