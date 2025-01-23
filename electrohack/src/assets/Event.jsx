@@ -4,34 +4,34 @@ import Timeline from './Timeline'
 
 const milestones = [
     {
-      title: "Workshop",
-      date: "3rd February 21:00 - 00:00",
-      description: "Lorem Ipsum Odor Sit Amet"
+      title: "Tutorial-I",
+      date: "3rd February 10:00am - 11:30am",
+      description: "Learn about FPGA, how they play a key role in today’s world and delve into VLSI Design Ipsum Odor Sit Amet"
     },
     {
       title: "Idea Review (Review 0)",
-      date: "4th February 3:00",
-      description: "Semper turpis non congue litora"
+      date: "3rd February 2:30pm - 4:30pm",
+      description: "Present your ideas and start working with guidance from your mentors"
+    },
+    {
+      title: "Tutorial-II",
+      date: "3rd February 9:30Pm - 11:00Pm",
+      description: "Explore Embedded Systems and IoT and strengthen your skills"
     },
     {
       title: "Review 1",
-      date: "4th February 12:00",
-      description: "iaculis penatibus quis duis"
+      date: "3rd & 4th February 11:15pm - 1:00am",
+      description: "First review to track your progress"
     },
     {
       title: "Review 2",
-      date: "4th February 18:00",
-      description: "Accumsan netus malesuada"
+      date: "4th February 8:30am - 10:30am",
+      description: "Second review for further updates on your work"
     },
     {
-      title: "Review 3",
-      date: "4th February 23:00",
-      description: "consectetuer adipiscing elit"
-    },
-    {
-      title: "Final Review and Conclusion",
-      date: "5th February 11:00",
-      description: "primis conubia diam primis"
+      title: "Tutorial-III",
+      date: "4th February 11:00am - 12:30pm",
+      description: "Build your PCB designing skills as you learn from the very best"
     }
   ];
 
@@ -48,7 +48,7 @@ export default function Event(){
                 <div className="text-center gradienttext1 mb-16" style={{fontSize:"6vw", fontFamily:'"Jersey 15", serif'}}>All Set To Trailblaze?</div>
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="Lorem ipsum odor amet, consectetuer adipiscing elit. "
+  text="With sustainability, AI, electronics and innovation at its core,"
   delay={50}
   animateBy="words"
   direction="top"
@@ -59,7 +59,7 @@ export default function Event(){
                 </div>
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="Semper turpis non congue litora; iaculis penatibus quis duis."
+  text=" ElectroHack aims to motivates students to come up with  ElectroHack aims to motivates students to come up with "
   delay={50}
   animateBy="words"
   direction="top"
@@ -71,7 +71,7 @@ export default function Event(){
 
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="Accumsan netus malesuada, primis conubia diam primis."
+  text="awe-inspiring and creative solutions for Sustainable Development Goals. Learn from mentors, collaborate with like-minded peers and innovate your way to victory."
   delay={50}
   animateBy="words"
   direction="top"
