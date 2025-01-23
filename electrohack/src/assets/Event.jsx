@@ -48,7 +48,7 @@ export default function Event(){
                 <div className="text-center gradienttext1 mb-16" style={{fontSize:"6vw", fontFamily:'"Jersey 15", serif'}}>All Set To Trailblaze?</div>
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="With sustainability, AI, electronics and innovation at its core,"
+  text="With sustainability, AI, electronics and innovation at its core, ElectroHack aims to motivate"
   delay={50}
   animateBy="words"
   direction="top"
@@ -59,7 +59,7 @@ export default function Event(){
                 </div>
                 <div className='flex flex-row justify-center'>
                 <BlurText
-  text="ElectroHack aims to motivate students to come up with awe-inspiring and creative solutions for Sustainable Development Goals."
+  text="students to come up with awe-inspiring and creative solutions for SDGs."
   delay={50}
   animateBy="words"
   direction="top"
