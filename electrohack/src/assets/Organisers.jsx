@@ -7,7 +7,7 @@ export default function Organisers(){
             <div className="flex flex-row justify-center text-white font-bold gradienttext2" style={{fontSize:"5rem"}}>IEEE CAS VIT</div>
             <div className="flex flex-row justify-center mt-12 ml-10 mr-10" style={{gap:'8vw'}}>
                 <img src={'../../public/logo (4).png'} style={{width:"20vw", height:"20vw", marginTop:"2vw"}}></img>
-                <div className="text-white mt-12" style={{fontSize:"1.7vw", fontFamily:'"Montserrat", serif'}}>IEEE Circuits and systems is a technical chapter of VIT Vellore with the motto of pioneering solutions to fundamental and applied problems in the field of circuits and systems. We aim to assist and collaborate with like-minded people and help them develop through technical sessions and projects, helping them gain practical knowledge with real-world applications.</div>
+                <div className="text-white mt-12" style={{fontSize:"1.7vw", fontFamily:'"Montserrat", serif'}}>IEEE Circuits and Systems is a technical chapter of VIT Vellore with the motto of pioneering solutions to fundamental and applied problems in the field of circuits and systems. We aim to assist and collaborate with like-minded people and help them develop through technical sessions and projects, helping them gain practical knowledge with real-world applications.</div>
                 <img src={'../../public/8ad9d580-2c78-470e-b2d6-ac994b86072e.jpg'} style={{width:"17vw", height:"22.5vw", borderRadius:"5px"}}></img>
             </div>
             <div className="flex flex-row justify-center text-white font-bold gradienttext3 mt-24" style={{fontSize:"5rem"}}>ISOI VIT</div>

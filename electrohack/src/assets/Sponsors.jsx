@@ -21,7 +21,7 @@ export default function Sponsors(){
                     <img src={'../../public/easemytrip-com-logo-vector.png'} style={{height:"10vw"}} className="mt-2"/>
                 </div>
                 <div className="text-white ml-12 mr-12 text-center mt-12" style={{fontFamily:'"Montserrat", serif'}}>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Natoque nulla lectus diam magnis et. Massa conubia lectus ex fames adipiscing pellentesque sodales vel. Pulvinar ipsum dictum elementum inceptos dui montes. Tristique auctor libero eget potenti faucibus. Hendrerit curae eu urna quisque potenti quisque tempor venenatis tellus.
+                EaseMyTrip is a trusted name in India's tourism sector, known for offering competitive fares and seamless travel services. With a robust network of over 70,000 travel agents, we are dedicated to delivering personalized assistance and a comprehensive range of exceptional services.
                 </div>
             </div>
         </div>

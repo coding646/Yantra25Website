@@ -26,8 +26,7 @@ export default function FAQs(){
       <AccordionItem value="item-3" className="border-gray-500"> 
         <AccordionTrigger style={{fontSize:"1.5vw"}}>Should we get our own hardware components?</AccordionTrigger>
         <AccordionContent className=" font-light" style={{fontSize:"1.2vw"}}>
-        It's recommended to get your own components, but nevertheless we'll also provide the components available in the inventory list
-        </AccordionContent>
+        It's recommended to get your own components, but nevertheless we'll also provide the components available in the inventory list.</AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4" className="border-gray-500">
         <AccordionTrigger style={{fontSize:"1.5vw"}}>Will we be allowed to leave the venue during the night time?</AccordionTrigger>
@@ -43,7 +42,7 @@ export default function FAQs(){
       <AccordionItem value="item-6" className="border-gray-500"> 
         <AccordionTrigger style={{fontSize:"1.5vw"}}>Are there any prerequisites for the event?</AccordionTrigger>
         <AccordionContent className=" font-light" style={{fontSize:"1.2vw"}}>
-        Yes, hunger to learn and innovate.
+        Yes, the hunger to learn and innovate.
         </AccordionContent>
       </AccordionItem>
     </Accordion>
