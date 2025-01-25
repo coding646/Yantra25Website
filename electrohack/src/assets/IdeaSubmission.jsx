@@ -22,7 +22,7 @@ export default function IdeaSubmission(){
             <div className="text-center font-semibold mt-12 gradienttext1" style={{fontSize:"5vw"}}>
             Tracks
         </div>
-        <div className="flex flex-col items-center lg lg:flex-row justify-center mt-10 gap-32">
+        <div className="flex flex-row items-center justify-center mt-10 gap-32">
         <TiltedCard
   imageSrc={"/1520172670937.jpg"}
   altText="VLSI Design"
