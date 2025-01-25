@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src={'../../public/vitlogo+40-01.png'}
+              src={'/vitlogo+40-01.png'}
               className="h-8 w-auto"
               style={{ width: '25vw', height: '10vw' }}
             />
@@ -62,7 +62,7 @@ export default function Navbar() {
             Contact Us
           </HashLink>
           <div>
-            <img src={'../../public/Asset 1img.png'} style={{height:"4vw",width:"12vw"}} className='mr-5 ml-24'/>
+            <img src={'/Asset 1img.png'} style={{height:"4vw",width:"12vw"}} className='mr-5 ml-24'/>
           </div>
           
         </PopoverGroup>

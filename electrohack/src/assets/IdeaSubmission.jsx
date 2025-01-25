@@ -24,7 +24,7 @@ export default function IdeaSubmission(){
         </div>
         <div className="flex flex-col lg:flex-row md:ml-96 lg:ml-0 ml-72 justify-center mt-10 gap-32">
         <TiltedCard
-  imageSrc={"../../public/1520172670937.jpg"}
+  imageSrc={"/1520172670937.jpg"}
   altText="VLSI Design"
   captionText="VLSI Design"
   containerHeight="300px"
@@ -44,7 +44,7 @@ export default function IdeaSubmission(){
 />
 
 <TiltedCard
-  imageSrc={"../../public/jorge-ramirez-nr3AmB4_B8g-unsplash.jpg"}
+  imageSrc={"/jorge-ramirez-nr3AmB4_B8g-unsplash.jpg"}
   altText="Embedded Systems with IOT"
   captionText="Embedded Systems with IOT"
   containerHeight="300px"
@@ -64,7 +64,7 @@ export default function IdeaSubmission(){
 />
 
 <TiltedCard
-  imageSrc={"../../public/1715842926157.png"}
+  imageSrc={"/1715842926157.png"}
   altText="PCB Design"
   captionText="PCB Design"
   containerHeight="300px"

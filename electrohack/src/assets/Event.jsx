@@ -54,7 +54,7 @@ export default function Event(){
     return(
         <div className='mb-48'>
             <div className='flex flex-col align-center'>
-                <img src={"../../public/logo (2).png"}/>
+                <img src={"/logo (2).png"}/>
                 <div className="text-center gradienttext1 mb-16" style={{fontSize:"6vw", fontFamily:'"Jersey 15", serif'}}>All Set To Trailblaze?</div>
                 <div className='flex flex-row justify-center'>
                 <BlurText

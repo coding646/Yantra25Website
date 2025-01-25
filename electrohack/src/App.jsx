@@ -47,9 +47,9 @@ function App() {
               </div>
               <MarqueeText2 />
               <div className='flex flex-row justify-around mt-10'>
-                    <img src={'../public/images.png'}/>
-                    <img src={'../public/VIT 40 years logo.png'} style={{height:"10vw"}} className='mt-2'/>
-                    <img src={'../public/Asset 1img.png'} style={{height:"8vw"}} className='mt-4'/>
+                    <img src={'/images.png'}/>
+                    <img src={'/VIT 40 years logo.png'} style={{height:"10vw"}} className='mt-2'/>
+                    <img src={'/Asset 1img.png'} style={{height:"8vw"}} className='mt-4'/>
               </div>
               <div id="event">
                 <Event />
