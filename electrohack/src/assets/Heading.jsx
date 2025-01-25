@@ -11,7 +11,7 @@ export default function Heading(){
   style={{ borderRadius: "20px" }}
 >
   <Link
-    to="/submit-idea" // Route to navigate to
+    to="/tracks" // Route to navigate to
     className="flex flex-row gap-2"
     style={{ fontSize: "1.5vw" }}
   >
