@@ -32,6 +32,16 @@ const milestones = [
       title: "Tutorial-III",
       date: "4th February 11:00am - 12:30pm",
       description: "Build your PCB designing skills as you learn from the very best"
+    },
+    {
+      title: "Review 3",
+      date: "4th February 04:00pm - 06:00pm",
+      description: "Final Review and judgement"
+    },
+    {
+      title: "Conclusion",
+      date: "4th February 7:00pm - 07:30pm",
+      description: "Event concludes"
     }
   ];
 
