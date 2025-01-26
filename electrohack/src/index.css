@@ -15,6 +15,7 @@ html{
   background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   font-size: 1.2vw;
+  overscroll-behavior-y: none;
   
 }
 

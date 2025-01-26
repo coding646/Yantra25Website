@@ -22,62 +22,62 @@ export default function IdeaSubmission(){
             <div className="text-center font-semibold mt-12 gradienttext1" style={{fontSize:"5vw"}}>
             Tracks
         </div>
-        <div className="flex flex-col lg:flex-row md:ml-96 lg:ml-0 ml-72 justify-center mt-10 gap-32">
+        <div className="flex flex-row items-center justify-center mt-10 gap-32">
         <TiltedCard
-  imageSrc={"../../public/1520172670937.jpg"}
+  imageSrc={"/1520172670937.jpg"}
   altText="VLSI Design"
   captionText="VLSI Design"
-  containerHeight="300px"
-  containerWidth="300px"
-  imageHeight="300px"
-  imageWidth="300px"
+  containerHeight="20vw"
+  containerWidth="20vw"
+  imageHeight="20vw"
+  imageWidth="20vw"
   rotateAmplitude={18}
   scaleOnHover={1.2}
   showMobileWarning={false}
   showTooltip={true}
   displayOverlayContent={true}
   overlayContent={
-  <p className="tilted-card-demo-text lg:mt-16 lg:ml-10 ml-16 mt-48 text-7xl mr-4 md:text-4xl md:ml-16 md:mt-36 font-bold text-white lg:text-3xl">
+  <p className="tilted-card-demo-text font-bold text-white " style={{fontSize:"2.3vw",  marginLeft:"2vw", marginTop:"4vw"}}>
       VLSI Design
     </p>
   }
 />
 
 <TiltedCard
-  imageSrc={"../../public/jorge-ramirez-nr3AmB4_B8g-unsplash.jpg"}
+  imageSrc={"/jorge-ramirez-nr3AmB4_B8g-unsplash.jpg"}
   altText="Embedded Systems with IOT"
   captionText="Embedded Systems with IOT"
-  containerHeight="300px"
-  containerWidth="300px"
-  imageHeight="300px"
-  imageWidth="300px"
+  containerHeight="20vw"
+  containerWidth="20vw"
+  imageHeight="20vw"
+  imageWidth="20vw"
   rotateAmplitude={18}
   scaleOnHover={1.2}
   showMobileWarning={false}
   showTooltip={true}
   displayOverlayContent={true}
   overlayContent={
-    <p className="tilted-card-demo-text lg:mt-16 lg:ml-6 ml-8 mt-48 text-7xl md:text-4xl mr-4 md:ml-8 md:mt-36 font-bold text-white lg:text-3xl">
+    <p className="tilted-card-demo-text font-bold text-white " style={{fontSize:"2.3vw",  marginLeft:"2vw", marginTop:"4vw"}}>
       Embedded Systems with IOT
     </p>
   }
 />
 
 <TiltedCard
-  imageSrc={"../../public/1715842926157.png"}
+  imageSrc={"/1715842926157.png"}
   altText="PCB Design"
   captionText="PCB Design"
-  containerHeight="300px"
-  containerWidth="300px"
-  imageHeight="300px"
-  imageWidth="300px"
+  containerHeight="20vw"
+  containerWidth="20vw"
+  imageHeight="20vw"
+  imageWidth="20vw"
   rotateAmplitude={18}
   scaleOnHover={1.2}
   showMobileWarning={false}
   showTooltip={true}
   displayOverlayContent={true}
   overlayContent={
-    <p className="tilted-card-demo-text lg:mt-16 lg:ml-10 ml-16 mt-48 text-7xl mr-4 md:text-4xl md:ml-16 md:mt-36 font-bold text-white lg:text-3xl">
+    <p className="tilted-card-demo-text font-bold text-white " style={{fontSize:"2.3vw", marginLeft:"2vw", marginTop:"4vw"}}>
       PCB Design
     </p>
   }

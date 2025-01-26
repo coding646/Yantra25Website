@@ -10,12 +10,12 @@ const milestones = [
     },
     {
       title: "Idea Review (Review 0)",
-      date: "3rd February 2:30pm - 4:30pm",
+      date: "3rd February 02:30pm - 04:30pm",
       description: "Present your ideas and start working with guidance from your mentors"
     },
     {
       title: "Tutorial-II",
-      date: "3rd February 9:30Pm - 11:00Pm",
+      date: "3rd February 09:30Pm - 11:00Pm",
       description: "Explore Embedded Systems and IoT and strengthen your skills"
     },
     {
@@ -25,23 +25,13 @@ const milestones = [
     },
     {
       title: "Review 2",
-      date: "4th February 8:30am - 10:30am",
+      date: "4th February 08:30am - 10:30am",
       description: "Second review for further updates on your work"
     },
     {
       title: "Tutorial-III",
       date: "4th February 11:00am - 12:30pm",
       description: "Build your PCB designing skills as you learn from the very best"
-    },
-    {
-      title: "Review 3",
-      date: "4th February 04:00pm - 06:00pm",
-      description: "Final Review and judgement"
-    },
-    {
-      title: "Conclusion",
-      date: "4th February 7:00pm - 07:30pm",
-      description: "Event concludes"
     }
   ];
 
@@ -54,7 +44,7 @@ export default function Event(){
     return(
         <div className='mb-48'>
             <div className='flex flex-col align-center'>
-                <img src={"../../public/logo (2).png"}/>
+                <img src={"/logo (2).png"}/>
                 <div className="text-center gradienttext1 mb-16" style={{fontSize:"6vw", fontFamily:'"Jersey 15", serif'}}>All Set To Trailblaze?</div>
                 <div className='flex flex-row justify-center'>
                 <BlurText

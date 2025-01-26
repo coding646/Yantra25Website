@@ -20,15 +20,15 @@ export default function Navbar() {
 
   return (
     <header className="bg-transparent bg-opacity-50 backdrop-blur-sm" style={{ height: '9vw' }}>
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between pt-6 lg:px-2">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between  lg:px-2">
         <div className="flex lg:flex-1">
-          <HashLink to="#home" smooth className="-m-1.5 p-1.5">
+          <HashLink to="#home" smooth className="-m-1.5 ">
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src={'../../public/vit rect logo.png'}
+              src={'/vitlogo+40-01.png'}
               className="h-8 w-auto"
-              style={{ width: '14vw', height: '5vw' }}
+              style={{ width: '25vw', height: '10vw' }}
             />
           </HashLink>
         </div>
@@ -61,11 +61,9 @@ export default function Navbar() {
           <HashLink smooth to="#contact-us" className="mt-4 text-sm/6 font-light text-white" style={{ fontSize: '1.3vw' }}>
             Contact Us
           </HashLink>
-          <div className="font-medium text-white ml-32 bg-transparent hover:bg-orange-700 pl-5 pr-5 pt-3 pb-4 submitbutton " style={{borderRadius:"20px"}}>
-               <Link to="/submit-idea" className="flex flex-row gap-2" style={{fontSize:"1.5vw", fontWeight:"300"}}> Tracks & Problems <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right mt-1" viewBox="0 0 16 16">
-  <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-</svg></Link>
-            </div>
+          <div>
+            <img src={'/Asset 1img.png'} style={{height:"4vw",width:"12vw"}} className='mr-5 ml-24'/>
+          </div>
           
         </PopoverGroup>
         
