@@ -90,27 +90,52 @@ export default function IdeaSubmission(){
             <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
                 <div>1.</div>
                 <div>The Mumbai Case Study</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
+                <a href="https://drive.google.com/file/d/1pqVYBO0gSrSCgxeGXHt4tZpdXAQ_Zwg_/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
             </div>
             <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
                 <div>2.</div>
                 <div>The New Delhi Case Study</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
+                <a href="https://drive.google.com/file/d/1CuOKxj3i_nVp5dajPrn9r3_gxzDfyg6g/view?usp=drive_link" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
             </div>
             <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
                 <div>3.</div>
                 <div>The Bangalore Case Study</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
+                <a href="https://drive.google.com/file/d/1dMLcvSkNjnstpuIT61bMYIS_jhhPH1xN/view?usp=drive_link" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
             </div>
             <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
                 <div>4.</div>
                 <div>The Metro Cities Case Study</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
+                <a href="https://drive.google.com/file/d/1-hBU3r1AlDRSQhivMQrK7Zz3OSYaHqO9/view?usp=drive_link" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
             </div>
             <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
                 <div>5.</div>
                 <div>The Rajasthan Case Study</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
+                <a href="https://drive.google.com/file/d/1YhbOME7RpjqaS12BsNK7ikH3WScGUQQe/view?usp=drive_link" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Check it out</a>
+            </div>
+            <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
+                <div>6.</div>
+                <div>The Kolkata Case Study</div>
+                <a href="https://drive.google.com/file/d/1zaND_6Jj7NthKBgc-g96wmahZGNlcNOD/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
+            </div>
+            <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
+                <div>7.</div>
+                <div>The Hyderabad Case Study</div>
+                <a href="https://drive.google.com/file/d/1WWb96aWVXtL-g7mBJlpVHaYWh78VMloW/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
+            </div>
+            <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
+                <div>8.</div>
+                <div>The North-East Case Study</div>
+                <a href="https://drive.google.com/file/d/1bSqXX1krfs7FEguyQM05VG0eQn6yVqF_/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
+            </div>
+            <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
+                <div>9.</div>
+                <div>The Jharkhand Case Study</div>
+                <a href="hhttps://drive.google.com/file/d/169FMZ_G3BWHIhrNxeZxiTzCaYDLIYzS0/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
+            </div>
+            <div className="flex flex-row text-white justify-between ml-24 mr-24" style={{fontSize:"2vw"}}>
+                <div>10.</div>
+                <div>The Chennai Case Study</div>
+                <a href="https://drive.google.com/file/d/18MlRqRMcNmPwMzOdc0KPAfS5OLdMiMfm/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Check it out</a>
             </div>
         </div>
 
