@@ -1,85 +1,105 @@
-import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef } from 'react';
+import react from 'react';
+import BlurText from '../../assets/textanimations/BlurText/BlurText'
+import Timeline from './Timeline'
 
-export default function Timeline({ milestones }) {
-  const containerRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start center", "end center"]
-  });
+const milestones = [
+    {
+      title: "Tutorial-I",
+      date: "3rd February 10:00am - 11:30am",
+      description: "Learn about FPGA and delve into VLSI Design"
+    },
+    {
+      title: "Idea Review (Review 0)",
+      date: "3rd February 02:30pm - 04:30pm",
+      description: "Present your ideas and start working with guidance from your mentors"
+    },
+    {
+      title: "Tutorial-II",
+      date: "3rd February 09:30Pm - 11:00Pm",
+      description: "Explore Embedded Systems and IoT and strengthen your skills"
+    },
+    {
+      title: "Review 1",
+      date: "3rd & 4th February 11:15pm - 1:00am",
+      description: "First review to track your progress"
+    },
+    {
+      title: "Review 2",
+      date: "4th February 08:30am - 10:30am",
+      description: "Second review for further updates on your work"
+    },
+    {
+      title: "Tutorial-III",
+      date: "4th February 11:00am - 12:30pm",
+      description: "Build your PCB designing skills as you learn from the very best"
+    },
+    {
+      title: "Review 3",
+      date: "4th February 04:00pm - 06:00pm",
+      description: "Final Review and judgement"
+    },
+    {
+      title: "Conclusion",
+      date: "4th February 7:00pm - 07:30pm",
+      description: "Event concludes"
+    }
+  ];
 
-  return (
-    <div ref={containerRef} className="relative w-full max-w-3xl mx-auto py-16">
-      {/* Animated progress line */}
-      <div className="absolute left-[calc(50%+1.5px)] top-0 w-1 h-full bg-gray-800">
-        <motion.div
-          className="absolute top-0 w-full bg-red-600"
-          style={{ 
-            height: '100%',
-            scaleY: scrollYProgress,
-            transformOrigin: 'top'
-          }}
-        />
-      </div>
+export default function Event(){
+    const handleAnimationComplete = () => {
+        console.log('Animation completed!');
+      };
+      
 
-      {/* Timeline items */}
-      <div className="relative">
-        {milestones.map((milestone, index) => {
-          const threshold = 1 / (milestones.length + 1) * (index + 1);
-          const color = useTransform(
-            scrollYProgress,
-            [threshold - 0.1, threshold],
-            ["rgb(156, 163, 175)", "rgb(249, 115, 22)"]
-          );
-
-          return (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              className={`flex items-center mb-12 ${
-                index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
-              }`}
-            >
-              {/* Content */}
-              <div className="w-1/2 px-8">
-                <div className={`${
-                  index % 2 === 0 ? 'text-right' : 'text-left'
-                }`}>
-                  <motion.h3 
-                    className="text-xl font-bold mb-2"
-                    style={{ color }}
-                  >
-                    {milestone.title}
-                  </motion.h3>
-                  <p className="text-gray-400 mb-2">{milestone.date}</p>
-                  <p className="text-white">{milestone.description}</p>
+    return(
+        <div className='mb-48'>
+            <div className='flex flex-col align-center'>
+                <img src={"/logo (2).png"}/>
+                <div className="text-center gradienttext1 mb-16" style={{fontSize:"6vw", fontFamily:'"Jersey 15", serif'}}>All Set To Trailblaze?</div>
+                <div className='flex flex-row justify-center'>
+                <BlurText
+  text="With sustainability, AI, electronics and innovation at its core, ElectroHack aims to motivate"
+  delay={50}
+  animateBy="words"
+  direction="top"
+  onAnimationComplete={handleAnimationComplete}
+  className=" text-3xl mb-4 text-white"
+  style={{fontSize:"6vw",}}
+/>
                 </div>
-              </div>
+                <div className='flex flex-row justify-center'>
+                <BlurText
+  text="students to come up with awe-inspiring and creative solutions for SDGs."
+  delay={50}
+  animateBy="words"
+  direction="top"
+  onAnimationComplete={handleAnimationComplete}
+  className=" text-3xl mb-4 text-white"
+  style={{fontSize:"6vw",}}
+/>
+                </div>
 
-              {/* Timeline point */}
-              <motion.div 
-                className="w-4 h-4 rounded-full relative z-10 translate-x-[2px]"
-                style={{ backgroundColor: color }}
-              >
-                <motion.div
-                  className="absolute w-full h-full rounded-full -z-10"
-                  style={{ backgroundColor: color, opacity: 0.3 }}
-                  initial={{ scale: 0 }}
-                  whileInView={{ scale: 1.5 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5 }}
-                />
-              </motion.div>
-
-              {/* Spacer */}
-              <div className="w-1/2" />
-            </motion.div>
-          );
-        })}
+                <div className='flex flex-row justify-center'>
+                <BlurText
+  text="Learn from mentors, collaborate with like-minded peers and innovate your way to victory."
+  delay={50}
+  animateBy="words"
+  direction="top"
+  onAnimationComplete={handleAnimationComplete}
+  className=" text-3xl text-white"
+  style={{fontSize:"6vw",}}
+/>
+                </div>
+            </div>
+            <div className="container mx-auto px-4 mt-24">
+        <div className="py-12 text-center">
+          <h1 className="text-4xl font-bold text-white mb-4">Event Timeline</h1>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            Check out how the event unfolds
+          </p>
+        </div>
+        <Timeline milestones={milestones} />
       </div>
-    </div>
-  );
+        </div>
+    )
 }
