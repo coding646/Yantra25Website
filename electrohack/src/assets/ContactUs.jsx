@@ -10,7 +10,7 @@ export default function ContactUs(){
                         Saravanavikas Dhandapani
                     </div>
                     <div>
-                        +91 9876543210
+                    +91 93453 29808
                     </div>
                     <div style={{fontSize:"1.2vw"}}>
                         saravanavikas.d@2023@vitstudent.ac.in
@@ -21,7 +21,7 @@ export default function ContactUs(){
                         Kaushik
                     </div>
                     <div>
-                        +91 9876543210
+                        +91 80737 14436
                     </div>
                     <div style={{fontSize:"1.2vw"}}>
                         kaushik.k2022@vitstudent.ac.in
