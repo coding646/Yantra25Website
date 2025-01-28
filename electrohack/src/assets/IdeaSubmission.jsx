@@ -139,6 +139,20 @@ export default function IdeaSubmission(){
             </div>
         </div>
 
+        <div className="text-center mt-24 gradienttext1" style={{fontSize:"5vw"}}>
+            Download & Installation Guides
+        </div>
+        <div className="mt-12 mb-12 flex flex-col gap-10">
+            <div className="flex flex-row text-white justify-between ml-96 mr-96" style={{fontSize:"2vw"}}>
+                <div>Arduino IDE</div>
+                <a href="https://www.google.com" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Download</a>
+            </div>
+            <div className="flex flex-row text-white justify-between ml-96 mr-96" style={{fontSize:"2vw"}}>
+                <div>Quartus Prime</div>
+                <a href="https://www.google.com" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Download</a>
+            </div>
+            
+        </div>
         
         <div style={{height:"6vw"}}></div>
         </div>
