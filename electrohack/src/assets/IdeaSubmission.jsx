@@ -145,13 +145,16 @@ export default function IdeaSubmission(){
         <div className="mt-12 mb-12 flex flex-col gap-10">
             <div className="flex flex-row text-white justify-between ml-96 mr-96" style={{fontSize:"2vw"}}>
                 <div>Arduino IDE</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Download</a>
+                <a href="https://drive.google.com/file/d/1ginKcDAAakq94FLpqQic3mSe1O_ZzHp3/view?usp=drive_link" className="hover:text-orange-500 underline " style={{transition:"0.3s"}}>Download</a>
             </div>
             <div className="flex flex-row text-white justify-between ml-96 mr-96" style={{fontSize:"2vw"}}>
                 <div>Quartus Prime</div>
-                <a href="https://www.google.com" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Download</a>
+                <a href="https://drive.google.com/file/d/1HaBabTQtdy0GSdzwlCwJ8_Qp81hrfpSO/view?usp=drive_link" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Download</a>
             </div>
-            
+            <div className="flex flex-row text-white justify-between ml-96 mr-96" style={{fontSize:"2vw"}}>
+                <div>KiCAD</div>
+                <a href="https://drive.google.com/file/d/1fQ0uMsRqQU6vuXFvhrbSmzxJztwYO6uy/view?usp=drive_link" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Download</a>
+            </div>
         </div>
         
         <div style={{height:"6vw"}}></div>
