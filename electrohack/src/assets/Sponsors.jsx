@@ -11,7 +11,7 @@ export default function Sponsors(){
                     <img src={'/sponsorlogo2.jpg'} style={{height:"5vw"}} className="mt-8"/>
                 </div>
                 <div className="text-white ml-12 mr-12 text-center mt-16" style={{fontFamily:'"Montserrat", serif'}}>
-                Thriveni Earth Movers Limited is a leading mining company with operations in India, Indonesia, and Africa. Specializing in commodities like iron ore, copper, and coal, Thriveni is committed to sustainable practices and community engagement. The company emphasizes technological innovation and outcome-driven solutions, exemplified by its state-of-the-art Thriveni Rebuild Centre, which has refurbished over 1,000 heavy earth-moving machines, significantly reducing CO₂ emissions. In December 2024, Lloyds Metals and Energy Limited acquired a 79.82% stake in Thriveni Earthmovers and Infra, further strengthening its position in the mining sector 
+                Thriveni Earthmovers is a billion-dollar mining conglomerate operating across India, Indonesia, and Africa, with ISO 9001:2000 and ISO 14001:2004 certifications. The company manages over 70 sites across 12 commodities, employing 17,000 people worldwide. A key strategic partnership with Lloyds Metals & Energy Ltd (LMEL), where TEMPL holds 35% ownership and serves as co-promoter, has transformed LMEL into a USD 4.5 billion market cap company. This collaboration integrates TEMPL's mining expertise with LMEL's steel manufacturing capabilities, including 270,000 TPA DRI production and an upcoming 72,000 MTPA steel plant, creating a robust mining-to-metals value chain.
                 </div>
             </div>
 
