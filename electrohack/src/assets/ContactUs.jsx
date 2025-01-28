@@ -13,7 +13,7 @@ export default function ContactUs(){
                     +91 93453 29808
                     </div>
                     <div style={{fontSize:"1.2vw"}}>
-                        saravanavikas.d@2023@vitstudent.ac.in
+                        saravanavikas.2023@vitstudent.ac.in
                     </div>
                     </div>
                     <div>
