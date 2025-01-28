@@ -155,6 +155,10 @@ export default function IdeaSubmission(){
                 <div>KiCAD</div>
                 <a href="https://drive.google.com/file/d/1fQ0uMsRqQU6vuXFvhrbSmzxJztwYO6uy/view?usp=drive_link" target="_blank" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Download</a>
             </div>
+            <div className="flex flex-row text-white justify-between ml-96 mr-96" style={{fontSize:"2vw"}}>
+                <div>Inventory list</div>
+                <a href="https://drive.google.com/file/d/17kNdMOqKg509LeGAFIghD0eFo-hpyIzF/view?usp=drive_link" target="_blank" className="hover:text-orange-500 underline" style={{transition:"0.3s"}}>Download</a>
+            </div>
         </div>
         
         <div style={{height:"6vw"}}></div>
