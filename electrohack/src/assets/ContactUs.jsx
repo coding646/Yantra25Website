@@ -24,7 +24,7 @@ export default function ContactUs(){
                         +91 80737 14436
                     </div>
                     <div style={{fontSize:"1.2vw"}}>
-                        kaushik.k2022@vitstudent.ac.in
+                        kaushik.rharan2022@vitstudent.ac.in
                     </div>
                     </div>
                     
